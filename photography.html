@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+   <meta charset="utf-8"/>
+   <title>Natalie Stollman</title>
+   <link rel="stylesheet" href="style.css"/>
+   <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Roboto+Condensed|Work+Sans" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+   <body>
+     <div id="wrapper">
+       <div id="header">
+         <div id="icons">
+           <a id="icon" href="https://www.linkedin.com/in/nataliestollman/"><i class="fab fa-linkedin"></i></a>
+           <a id="icon" href="https://github.com/nataliestollman"><i class="fab fa-github-square"></i></a>
+           <a id="icon" href="https://www.instagram.com/nataliestollman/?hl=en"><i class="fab fa-instagram"></i></a>
+
+         </div>
+         <!-- <p id="label"><strong><a href="/">Natalie</a></strong> Stollman</p> -->
+         <nav id="nav">
+
+           <ul>
+             <li><a href="index.html">About Me</a></li>
+             <li><a href="cs.html">Computer Science</a></li>
+             <li><a href="photography.html">Photography</a></li>
+             <li><a href="writing.html">Writing</a></li>
+             <li><a href="StollmanNatalieResume.pdf" target="_blank">Resume</a></li>
+
+           </ul>
+         </nav>
+       </div>
+
+
+
+<h1 id = "photography"> <br><br><br><br><br>PHOTOGRAPHY </h1>
+ <div id = "bodytext2">
+   My passion for photography began when my grandmother gave me a disposable camera at our trip to the North Shore of Oahu, HI in 2006. As a 7-year-old, I was fascinated by the ability to capture a moment at the click of a button, and, after seeing them developed, the idea that I could preserve a memory with a photograph.
+On the first night Hannukah of 2013, I unwrapped a brand new Canon EOS Rebel T4-- my very own professional camera. Ecstatic, I spent the entire day running up and down my neighborhood and the forest in my backyard, ending up with 500 photos of trees and houses by bedtime.
+In high school, I began my own photography business taking portrait photos of families and student in the greater Oakland area. Starting with my personal network, I was able to expand my business to five large high schools in the area and several other outside clients.
+
+<br>
+Click on a photo below and scroll down to see my gallery!
+
+
+ <!-- gallery -->
+ <div id = "gallery">
+   <div class="row">
+<div class="column">
+ <div class="image">
+
+ <img src="1.jpg" style="width:20%" onclick="openModal();currentSlide(1);">
+ <img src="2.jpg"style="width:20%" onclick="openModal();currentSlide(2);">
+ <img src="3.jpg"style="width:20%" onclick="openModal();currentSlide(3);">
+ <img src="4.jpg" style="width:20%" onclick="openModal();currentSlide(4);">
+ </div>
+</div>
+<div class="column">
+ <div class="image">
+ <img src="5.jpg" style="width:20%" onclick="openModal();currentSlide(5);">
+ <img src="6.jpg" style="width:20%" onclick="openModal();currentSlide(6);">
+ <img src="7.jpg" style="width:20%" onclick="openModal();currentSlide(7);">
+ <img src="8.jpg" style="width:20%" onclick="openModal();currentSlide(8);;">
+ </div>
+</div>
+<div class="column">
+ <div class="image">
+ <img src="9.jpg" style="width:20%" onclick="openModal();currentSlide(9);">
+ <img src="10.jpg" style="width:20%" onclick="openModal();currentSlide(10);">
+ <img src="11.jpg" style="width:20%" onclick="openModal();currentSlide(11);">
+ <img src="12.jpg" style="width:20%" onclick="openModal();currentSlide(12);">
+ </div>
+</div>
+</div>
+
+<!-- The Modal-->
+<div id="modalImages" class="modal">
+<span class="close" onclick="closeModal()"><i class="fas fa-times"></i></span>
+<!-- modal content-->
+<div class="modal-content">
+
+ <div class="mySlides">
+   <img src="1.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img id = "image02" src="2.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img id = "image03" src="3.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img src="4.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img src="5.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img src="6.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img src="7.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img src="8.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img src="9.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img src="10.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img src="11.jpg" style="width:100%">
+ </div>
+
+ <div class="mySlides">
+   <img src="12.jpg" style="width:100%">
+ </div>
+
+</div>
+
+<a class="last" onclick="next(-1)"><i class="fas fa-arrow-left"></i></a>
+<a class="next" onclick="next(1)"><i class="fas fa-arrow-right"></i></a>
+
+</div>
+ </div>
+   </div>
+<br><br><br><br><br><br><br><br><br>
+
+<script src = "main.js"> </script>
+
+ </body>
+</html>
